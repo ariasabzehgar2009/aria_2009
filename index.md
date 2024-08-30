@@ -36,7 +36,7 @@ My journey starts here.
 
 hockey picture ![download (14)](https://github.com/user-attachments/assets/d54bed78-a93a-463d-8cfc-7cfbde44363b)
 
-<!-- Liquid:  statements -->
+
 
 <!-- Include submenu from _includes to top of pages -->
 {% include nav/home.html %}
@@ -218,4 +218,4 @@ hockey picture ![download (14)](https://github.com/user-attachments/assets/d54be
     mario.startResting();
   });
 
-</script>
+
