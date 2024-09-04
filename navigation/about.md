@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-%%html
+
 
 <style>
     /* Style looks pretty compact, trace grid-container and grid-item in the code */
@@ -74,4 +74,4 @@ permalink: /about/
     }
 </script>
 
-Creator of Student 2025
+
