@@ -5,7 +5,7 @@ description: Home Page
 image: /images/mario_animation.png
 hide: true
 ---
-New Kasm test
+New Kasm test xxx
 <!-- Liquid:  statements -->
 
 <!-- Include submenu from _includes to top of pages -->
