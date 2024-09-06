@@ -37,10 +37,10 @@ permalink: /about/
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "c/cf/Flag_of_Canada.svg", "greeting": "Hi", "description": "Canada - 9 years"},
-        {"flag": "b/be/Flag_of_England.svg", "greeting": "Alright mate", "description": "England - 2 years"},
-        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "Have been living here since 2014 and it is awesome"},
+        {"flag": "c/cf/Flag_of_Canada.svg", "greeting": "Hi", "description": "Lived in Canada for the first 6 years of my, was where I developed a passion for hockey"},
+        {"flag": "c/ca/Flag_of_Iran.svg", "greeting": "Alright mate", "description": "Where my parents were born, occasionally visit it"},
+        {"flag": "a/a4/Flag_of_the_United_States.svg", "greeting": "America", "description": "Home country in which I travel all around for hockey tournament"},
     ]; 
     
     // 3a. Consider how to update style count for size of container
