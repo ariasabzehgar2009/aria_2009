@@ -75,5 +75,20 @@ Here are some places that play a big part in my life
         container.appendChild(gridItem);
     }
 </script>
+### My journey so far in life and fun facts 
+- I was born in Vancouver Canada in which I lived in until I was 6
+- During this time I developed a huge interest in ice hockey.
+- As I arrived in San Diego, I surprisingly fit into the school system and found myself a hockey team pretty fast
+- I attended Monterey Ridge Elementary, Oak Valley Middle School, and am a student in Del Norte in the class of 2027
+- I am now playing a high level of hockey which requires me to be very responsible to be able to manage work
+- I am currently interested in Chemistry and Computer Science and find these two subjects most amusing.
+- If I'm not playing hockey or studying, I am usually playing fortnite, or hanging out with friends and family.
+
+### Family Matters
+- My parents are both from Iran which is a cool country if you really get to know it
+- My brother was born in San Diego unlike me. He currently attends MRES and is a great hockey player as well.
+- My grandparents all live in Iran, and we as family attempt to visit them once a year, which is a difficult task considering the distance.
+- My gallery below has some cool pictures both from me and my family friends.
+
 
 
