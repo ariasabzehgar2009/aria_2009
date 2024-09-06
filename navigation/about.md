@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+## Starting off 
+Here are some places that play a big part in my life 
 
 <style>
     /* Style looks pretty compact, trace grid-container and grid-item in the code */
