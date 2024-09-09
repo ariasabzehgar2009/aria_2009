@@ -25,6 +25,20 @@ Here are some places that play a big part in my life
     .grid-item p {
         margin: 5px 0; /* Add some margin for spacing */
     }
+
+        .image-gallery {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 10px;
+        }
+
+    .image-gallery img {
+        max-height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    
 </style>
 
 <!-- This grid_container class is for the CSS styling, the id is for JavaScript connection -->
@@ -90,5 +104,22 @@ Here are some places that play a big part in my life
 - My grandparents all live in Iran, and we as family attempt to visit them once a year, which is a difficult task considering the distance.
 - My gallery below has some cool pictures both from me and my family friends.
 
+<comment>
+Gallery of Pics, scroll to the right for more ...
+</comment>
+<div class="image-gallery">
+  <img src="{{site.baseurl}}/images/about/missionary.jpg" alt="Image 1">
+  <img src="{{site.baseurl}}/images/about/john_tamara.jpg" alt="Image 2">
+  <img src="{{site.baseurl}}/images/about/tamara_fam.jpg" alt="Image 3">
+  <img src="{{site.baseurl}}/images/about/surf.jpg" alt="Image 4">
+  <img src="{{site.baseurl}}/images/about/john_lora.jpg" alt="Image 5">
+  <img src="{{site.baseurl}}/images/about/lora_fam.jpg" alt="Image 6">
+  <img src="{{site.baseurl}}/images/about/lora_fam2.jpg" alt="Image 7">
+  <img src="{{site.baseurl}}/images/about/pj_party.jpg" alt="Image 8">
+  <img src="{{site.baseurl}}/images/about/trent_family.png" alt="Image 9">
+  <img src="{{site.baseurl}}/images/about/claire.jpg" alt="Image 10">
+  <img src="{{site.baseurl}}/images/about/grandkids.jpg" alt="Image 11">
+  <img src="{{site.baseurl}}/images/about/farm.jpg" alt="Image 12">
+</div>
 
 
