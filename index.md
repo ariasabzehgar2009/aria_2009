@@ -221,6 +221,13 @@ My journey starts here.
 
 hockey picture ![download (14)](https://github.com/user-attachments/assets/d54bed78-a93a-463d-8cfc-7cfbde44363b)
 
+<script src="https://utteranc.es/client.js"
+        repo="[ENTER REPO HERE]"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
 
 
