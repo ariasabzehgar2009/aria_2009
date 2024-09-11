@@ -219,11 +219,11 @@ My journey starts here.
 -Grades are on projects, learnt concepts and live reviews between student and teacher
 ```
 
-hockey picture ![download (14)](https://github.com/user-attachments/assets/d54bed78-a93a-463d-8cfc-7cfbde44363b)
-
+<!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
-        repo="[ENTER REPO HERE]"
-        issue-term="pathname"
+        repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"
+        issue-term="title"
+        label="blogpost-comment"
         theme="github-light"
         crossorigin="anonymous"
         async>
