@@ -222,6 +222,39 @@ My journey starts here.
 -Grades are on projects, learnt concepts and live reviews between student and teacher
 ```
 
+%%html
+
+<h3>HTML: This is a Heading</h3>
+<p>This is a paragraph.</p>
+
+<a href="https://www.eliteprospects.com/">Hockey Prospects Page</a>
+
+![connor bedard](https://thehockeynews.com/.image/t_share/MjA1NDU4OTA1Mzk0ODQ5Mjc4/connor-bedard.jpg)
+
+<img alt="Kylian Mbappe" src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-75278,resizemode-75,msid-112143413/news/international/us/real-madrids-kylian-mbappe-become-youngest-club-owner-in-european-football-history-know-the-inside-story.jpg"/>
+
+
+[This is link tag-Markdown](https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground)
+
+<a href="<a href="link">link text</a>">Link Tag-HTML</a>
+
+**Bolded Text in Markdown**
+<strong> Bolded Text in HTML</strong>
+*Italic Text in Markdown*
+<i>Italic text in HTML</i>
+<p> This is a paragraph in HTML markdown does not have these following formats</p>
+<button>some button text</button>
+
+<p>Links in HTML<p>
+<button><a href="https://www.youtube.com/watch?v=xsu6QLTa4Uo&t=137s">Some nice background fortnite music</a></button>
+<div>
+<a href="https://www.eliteprospects.com/player/984081/aria-sabzehgar">hockey prospects page </a>
+<div>
+<a href="https://github.com/ariasabzehgar2009/aria_2009">my repository</a>
+</div>
+<p>Thanks for trying it out</p> 
+
+
 <!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
         repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"

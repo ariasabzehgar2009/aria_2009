@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: About
 permalink: /about/
 ---
@@ -121,5 +121,20 @@ Gallery of Pics, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about me/INSERT_HERE" alt="Image 11">
   <img src="{{site.baseurl}}/images/about me/INSERT_HERE" alt="Image 12">
 </div>
+<script src="https://utteranc.es/client.js"
+        repo="ariasabzehgar2009/aria_2009"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+
+</script>
+<script src="https://utteranc.es/client.js"
+        repo="ariasabzehgar2009/aria_2009"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async
+</script>
 
 
