@@ -9,6 +9,9 @@ description: Home Page
 ## Fortnite
 -Mechanics: Fortnite is regarded as one of the hardest games to become proficient in. This is for many reasons. First off, you need to master so many mechanics that allow you to strive in the game such as building, aiming, strategizing, rotations, knowing when to get storm surge, and much more. 
 -Cosmetics and Rewards: There is a daily item shop that refreshes every day which allows young gamers to spend their money on new skins. Also, the competitive tournaments hosted have lots of prize money for the top competitors, which many we know now make a living off the game!
+<img alt="A cool Fortnite picture" src="https://cdn2.unrealengine.com/social-image-chapter4-s3-3840x2160-d35912cc25ad.jpg"/>
+<img alt="Some sample code in Vs Code on how the game is coded" src="https://raw.githubusercontent.com/sdras/fortnite-vscode-theme/master/theme.png?token=AARM5AB5NAMRAZFOGGHM2QDA4OFCE"/>
+
 
 
 <script src="https://utteranc.es/client.js"
