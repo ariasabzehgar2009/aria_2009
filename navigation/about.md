@@ -129,6 +129,30 @@ Gallery of Pics, scroll to the right for more ...
         async>
 
 </script>
+<html>
+    <head>
+        <style>
+            .white-on-dark {
+                color: #fff; /* short-hand for #ffffff, which is white */
+                background-color: #9eb32a; /* color code for dark grey */
+                padding: 10px; /* padding around text */
+                border: 3px solid #5bc9eb; /* short-hand for #cccccc, which is light grey */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Hide raw data in page -->
+        <p id="data" hidden>
+            Initial secret data 
+        </p>
+        <!-- Output HTML data within container -->
+        <div class="white-on-dark" id="output">
+            Hello!
+        </div>
+    </body>
+</html>
+
+
 <script src="https://utteranc.es/client.js"
         repo="ariasabzehgar2009/aria_2009"
         issue-term="pathname"

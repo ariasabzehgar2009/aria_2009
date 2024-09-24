@@ -15,6 +15,12 @@ description: Home Page
 <img alt="Some sample code in Vs Code on how the game is coded" src="https://raw.githubusercontent.com/sdras/fortnite-vscode-theme/master/theme.png?token=AARM5AB5NAMRAZFOGGHM2QDA4OFCE"/>
 
 
+<comment>
+Some cool pics about this game!
+<comment>
+<div class="image-gallery">
+
+
 
 <script src="https://utteranc.es/client.js"
         repo="ariasabzehgar2009/aria_2009"
