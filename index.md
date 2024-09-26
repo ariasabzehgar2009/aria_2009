@@ -246,15 +246,20 @@ My journey starts here.
 <button>some button text</button>
 
 <p>Links in HTML<p>
-<button><a href="https://www.youtube.com/watch?v=xsu6QLTa4Uo&t=137s">Some nice background fortnite music</a></button>
-<div>
-<a href="https://www.eliteprospects.com/player/984081/aria-sabzehgar">hockey prospects page </a>
-<div>
-<a href="https://github.com/ariasabzehgar2009/aria_2009">my repository</a>
+
+
+
+<div style="border: 4px solid blue; padding: 20px;">
+  <p style="border: 4px solid red; font-size: 1.5em; padding: 10px;">Some cool frontend dev</p>
+ <button><a href="https://www.youtube.com/watch?v=xsu6QLTa4Uo&t=137s">Some nice music to listen to</a></button>
 </div>
-<p>Thanks for trying it out</p> 
-
-
+<br>
+<br>
+<div style="border: 4px solid white; padding: 20px;">
+  <a style="border: 4px solid blue; font-size: 1.5em; padding: 10px; display: block; width: 25%" href="https://www.eliteprospects.com/player/984081/aria-sabzehgar">My hockey prospects page</a>
+  <a style="border: 4px solid blue; font-size: 1.5em; padding: 10px; display: block; width: 25%" href="https://github.com/ariasabzehgar2009/aria_2009">My own repository</a>
+  <p style="border: 4px solid red; font-size: 1.5em; padding: 10px;">Hope you enjoyed my page, thanks for looking around!</p>
+</div>
 
 
 <!-- from https://github.com/utterance/utterances -->
