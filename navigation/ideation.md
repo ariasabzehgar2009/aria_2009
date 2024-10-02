@@ -24,5 +24,6 @@ permalink: /ideation/
 </div>
 <ul style="border: 4px solid green; font-size: 1em; padding: 10px;">
   <li><strong>Add an NPC:</strong> I plan to add an NPC that you are able to interact with so that it can give you different perks in the game  </li>
-<li><strong>Add a weapon that the character can use:</strong> I want to add a weapon into the game that the character is able to pick up and use. Maybe later on i might also add a monster the character can attack with the weapon.   </li>
+<li><strong>Add a weapon that the character can use:</strong> I want to add a weapon into the game that the character is able to pick up and use.I would like to add a feature where the character can upgrade its weapon or "unlock" different weapons.  </li>
+<li><strong> Though I have added background music, I would like to figure out how to add sound effects for specific movements. </li>
 </ul>
