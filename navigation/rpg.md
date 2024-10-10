@@ -4,46 +4,38 @@ title: RPG
 permalink: /rpg/
 ---
 
-<div id="indicator" style="display: none;">Music is Playing!</div>
-<script>
-    // Set the audio path using Liquid and define it globally
-    window.audioPath = '{{site.baseurl}}/assets/sounds/soundtrack.mp3';
-</script>
-<script src="{{site.baseurl}}/assets/js/rpg/rpgMusic.js"></script>
+<style>
+.custom-alert {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.custom-alert button {
+    background-color: transparent; /* Fully transparent background */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    width: 100%; /* Adjust width to fit content */
+    height: 100%; /* Adjust height to fit content */
+    position: absolute; /* Position the button relative to the alert box */
+}
+
+</style>
 
 <canvas id='gameCanvas'></canvas>
+<div id="custom-alert" class="custom-alert">
+    <button onclick="closeCustomAlert()" id="custom-alert-message"></button>
+</div>
 
 <script type="module">
-    import GameControl from '{{site.baseurl}}/assets/js/rpg/GameControl.js';
+    import GameControl from '{{site.baseurl}}/assets/js/rpg2x/GameControl.js';
 
-    // Background data
-    const image_src = "{{site.baseurl}}/images/rpg/skyscraper.png";
-    const image_data = {
-        pixels: {height: 1000, width: 567}
-    };
-    const image = {src: image_src, data: image_data};
-
-    // Sprite data
-    const sprite_src = "{{site.baseurl}}/images/rpg/sprite.png";
-    const sprite_data = {
-        SCALE_FACTOR: 10,
-        STEP_FACTOR: 1000,
-        ANIMATION_RATE: 50,
-        pixels: {height: 72, width: 48},
-        orientation: {rows: 4, columns: 3 },
-        down: {row: 0, start: 0, columns: 3 },
-        left: {row: 2, start: 0, columns: 3 },
-        right: {row: 3, start: 0, columns: 3 },
-        up: {row: 1, start: 0, columns: 3 },
-    };
-    const sprite = {src: sprite_src, data: sprite_data};
-
-    // Assets for game
-    //const assets = {}
-    //const assets = {image: image}
-    //const assets = {sprite: sprite}
-    const assets = {image: image, sprite: sprite}
+    const path = "{{site.baseurl}}";
 
     // Start game engine
-    GameControl.start(assets);
+    GameControl.start(path);
 </script>
