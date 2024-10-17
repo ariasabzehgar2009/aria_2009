@@ -77,4 +77,9 @@ This blog contains my journey into Coding.
             Data Types
         </div>
     </a>
+    <a href="{{site.baseurl}}/game/intro/json" style="text-decoration: none;">
+        <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            JSON Object
+        </div>
+    </a>
 </div>
