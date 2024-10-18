@@ -101,7 +101,12 @@ class NPC extends Player {
             });
             // Join all player names inside the proximity
             if (names.length > 0) {
-                this.handleResponse(`Hello, ${names.join(', ')}`);
+                if (distance<35) {
+                this.handleResponse(`You still have  got a long way to go!`)
+                } else {
+                this.handleResponse(`You are almost at your reward!`)
+                }
+            
             }
         }
     }
