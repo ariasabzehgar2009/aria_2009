@@ -86,7 +86,6 @@ class NPC extends Player {
         // Filter all Player objects from the game environment
         var players = GameEnv.gameObjects.filter(obj => obj instanceof Player);
         var npc = this;
-        var names = [];
 
         if (players.length > 0 && npc) {
             players.forEach(player => {
@@ -94,18 +93,14 @@ class NPC extends Player {
                 var distance = Math.sqrt(
                     Math.pow(player.position.x - npc.position.x, 2) + Math.pow(player.position.y - npc.position.y, 2)
                 );
-                // Join all player names inside the proximity
-                if (names.length > 0) {
-                    if (distance<35) {
-                    this.handleResponse("You still have  got a long way to go!");
-                    } else {
+
+                // First check for when the player is within 35 units distance
+                if (distance < 35) {
                     this.handleResponse("You are almost at your reward!");
-                    }
-                
                 }
-                // The distance is less than 100 pixels
-                if (player != npc && distance <= 100) {
-                    names.push(player.spriteData.name);
+                // If the distance is greater than 35 but less than 100, show the other message
+                else if (distance >= 35 && distance < 100) {
+                    this.handleResponse("You still have got a long way to go!");
                 }
             });
         }
