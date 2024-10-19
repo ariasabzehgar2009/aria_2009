@@ -77,9 +77,28 @@ This blog contains my journey into Coding.
             Data Types
         </div>
     </a>
-    <a href="{{site.baseurl}}/game/intro/json" style="text-decoration: none;">
-        <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            JSON Object
+    <a href="{{site.baseurl}}/game/intro/json/" style="text-decoration: none;">
+    <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        JSON Object
+    </div>
+   <a href="{{site.baseurl}}/notebooks/sprint1/sprint2/for_sprites/" style="text-decoration: none;">
+    <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        For Loops - Sprites
+    </div>
+</a>
+
+    </div>
+</a>
+
+</a>
+
+    </div>
+</a>
+</a>
+
+    </div>
+</a>
+
         </div>
     </a>
 </div>
