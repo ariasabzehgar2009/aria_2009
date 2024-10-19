@@ -27,16 +27,16 @@ class GameLevelWater {
 
     // Player 1 sprite data (turtle)
     const TURTLE_SCALE_FACTOR = 10;
-    const sprite_src_turtle = path + "/images/rpg/turtle.png";
-    const sprite_data_turtle = {
-        name: 'turtle',
-        src: sprite_src_turtle,
-        SCALE_FACTOR: TURTLE_SCALE_FACTOR,
+    const sprite_src_turtle = path + "/images/rpg/luigi.png";
+    const sprite_data_luigi = {
+        name: 'luigi',
+        src: sprite_src_luigi,
+        SCALE_FACTOR: LUIGI_SCALE_FACTOR,
         STEP_FACTOR: 1000,
         ANIMATION_RATE: 50,
-        INIT_POSITION: { x: 0, y: height - (height/TURTLE_SCALE_FACTOR) }, 
-        pixels: {height: 280, width: 256},
-        orientation: {rows: 4, columns: 3 },
+        INIT_POSITION: { x: 0, y: height - (height/LUIGI_SCALE_FACTOR) }, 
+        pixels: {height: 48, width: 72},
+        orientation: {rows: 3, columns: 4 },
         down: {row: 0, start: 0, columns: 3 },
         left: {row: 1, start: 0, columns: 3 },
         right: {row: 2, start: 0, columns: 3 },
