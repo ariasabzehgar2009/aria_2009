@@ -88,7 +88,3 @@ This blog contains my journey into Coding.
         For Loops
     </div>
 </a>
-
-        </div>
-    </a>
-</div>
