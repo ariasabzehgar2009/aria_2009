@@ -68,23 +68,23 @@ This blog contains my journey into Coding.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables" style="text-decoration: none;">
-        <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: blue; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Variables I/O
         </div>
         </div>
     </a>
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/data-types/" style="text-decoration: none;">
-        <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: green; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Data Types
         </div>
     </a>
     <a href="{{site.baseurl}}/game/intro/json/" style="text-decoration: none;">
-        <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: blue; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             JSON Object
         </div>
     </a>
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/for-loops/" style="text-decoration: none;">
-    <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+    <div style="background-color: green; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
         For Loops
     </div>
 </a>
