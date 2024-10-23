@@ -102,6 +102,16 @@ class NPC extends Player {
                 else if (distance >= 35 && distance < 100) {
                     this.handleResponse("You still have got a long way to go!");
                 }
+                if (player !== npc) {
+                // If the player is more than 100 pixels away
+                if (distance > 100) {
+                    this.handleResponse("Come closer, I can't see you!");
+                }
+                // If the player is within 100 pixels, greet them with their name
+                else if (distance <= 100) {
+                    names.push(player.spriteData.name);  // Collect player names within proximity
+                }
+            }
             });
         }
     }
