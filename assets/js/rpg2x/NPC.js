@@ -96,11 +96,11 @@ class NPC extends Player {
 
                 // First check for when the player is within 35 units distance
                 if (distance < 35) {
-                    this.handleResponse("You are almost at your reward!");
+                    this.handleResponse("You still have got a long way to go!");
                 }
                 // If the distance is greater than 35 but less than 100, show the other message
                 else if (distance >= 35 && distance < 100) {
-                    this.handleResponse("You still have got a long way to go!");
+                    this.handleResponse("You are almost at your reward!");
                 }
                 if (player !== npc) {
                 // If the player is more than 100 pixels away
