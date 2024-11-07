@@ -98,3 +98,15 @@ This blog contains my journey into Coding.
 
 
 
+
+<script src="https://utteranc.es/client.js"
+        repo="ariasabzehgar2009/aria_2009"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async></script>
+
+
+
+
+
