@@ -88,10 +88,13 @@ This blog contains my journey into Coding.
         For Loops
     </div>
     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables/lesson1x/" style="text-decoration: none;">
+    <a href="{{site.baseurl}}//csse/javascript/fundamentals/variables/lesson1x/" style="text-decoration: none;">
         <div style="background-color: orange; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             My Groups Variable Lesson
         </div>
     </a>
 </div>
 </a>
+
+
+
