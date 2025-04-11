@@ -73,4 +73,4 @@ The experts shared their predictions for the next 5–10 years:
 
 ## Conclusion
 Cybersecurity is a fast-changing field, with new threats coming up all the time. As cybersecurity becomes a part of every industry, professionals need not only technical skills but also the ability to communicate well, work in teams, and keep up with new threats. The demand for skilled cybersecurity workers will keep growing, and being able to adapt to new challenges will be key to success in the future.
-![]
+![Picture](https://github.com/user-attachments/assets/e73e120d-e503-4873-b541-780ef42c8c19)
