@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Player Battle Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        #game {
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .round-title {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .eliminated {
+            color: red;
+        }
+        .winner {
+            font-size: 1.2em;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>⚔️ Player Battle Game</h1>
+    <div id="game"></div>
+
+    <script>
+        const element = document.getElementById("game");
+
+        // Object Literal
+        const playerTemplate = {
+            name: "Unknown",
+            health: 100,
+            speed: 5,
+            strength: 5,
+            randomPower: function() {
+                return Math.random() < 0.5 ? this.speed : this.strength;
+            },
+            battle: function(opponent) {
+                this.health -= 1;
+                opponent.health -= 1;
+
+                const myPower = this.randomPower();
+                const oppPower = opponent.randomPower();
+
+                if (myPower > oppPower) {
+                    opponent.health -= 10;
+                } else if (myPower < oppPower) {
+                    this.health -= 10;
+                }
+            },
+            isAlive: function() {
+                return this.health > 0;
+            }
+        };
+
+        // Create Players
+        const players = [
+            Object.create(playerTemplate),
+            Object.create(playerTemplate),
+            Object.create(playerTemplate),
+            Object.create(playerTemplate),
+            Object.create(playerTemplate)
+        ];
+
+        ["Alice", "Bob", "Charlie", "Diana", "Eve"].forEach((name, i) => {
+            players[i].name = name;
+            players[i].health = 100;
+            players[i].speed = Math.floor(Math.random() * 10) + 1;
+            players[i].strength = Math.floor(Math.random() * 10) + 1;
+        });
+
+        // Game Loop
+        let round = 1;
+        while (players.filter(p => p.isAlive()).length > 1) {
+            const roundDiv = document.createElement("div");
+            roundDiv.classList.add("round-title");
+            roundDiv.textContent = `--- Round ${round} ---`;
+            element.appendChild(roundDiv);
+
+            const living = players.filter(p => p.isAlive());
+            const attacker = living[Math.floor(Math.random() * living.length)];
+
+            living.forEach(opponent => {
+                if (attacker !== opponent && opponent.isAlive()) {
+                    attacker.battle(opponent);
+                }
+            });
+
+            const leaderboard = document.createElement("ul");
+            players
+                .filter(p => p.isAlive())
+                .sort((a, b) => b.health - a.health)
+                .forEach(p => {
+                    const li = document.createElement("li");
+                    li.textContent = `${p.name}: ${p.health} HP`;
+                    leaderboard.appendChild(li);
+                });
+
+            element.appendChild(leaderboard);
+
+            players.forEach(p => {
+                if (!p.isAlive() && !p.deadAnnounced) {
+                    const deathMsg = document.createElement("p");
+                    deathMsg.classList.add("eliminated");
+                    deathMsg.textContent = `${p.name} has been eliminated.`;
+                    element.appendChild(deathMsg);
+                    p.deadAnnounced = true;
+                }
+            });
+
+            round++;
+        }
+
+        // Final Winner
+        const winner = players.find(p => p.isAlive());
+        const result = document.createElement("p");
+        result.classList.add("winner");
+
+        if (winner) {
+            result.textContent = `🏆 Winner: ${winner.name} with ${winner.health} HP remaining!`;
+        } else {
+            result.textContent = "No one survived.";
+        }
+
+        element.appendChild(result);
+    </script>
+
+</body>
+</html>
